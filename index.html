@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Travello</title>
+    <style>
+    a {
+    	color: #000000;
+    }
+    a:visited, a:visited {
+    	color: #000000;
+    	}
+    a 	{
+    	text-decoration: none;
+    	}	
+    body {
+    	  	background-image: url("https://cdn.fischer.sk/Images/000136/panama-panama-panama-ciudad-panama-san-blas-a-tichy-ocean-riu-plaza-panama-yandup-island-lodge-royal-decameron-0_1200x0.jpg");
+  			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-size: 1520px 797px ;
+
+    }
+    .zoznam1 {
+    	font-size: 25px;
+    	position: absolute;
+    	top: 3%;
+    	left: 35%;
+    }
+    .zoznam2 {
+    	font-size: 25px;
+    	position: absolute;
+    	top: 3%;
+    	left: 43%;	
+    }
+    .zoznam3 {
+    	font-size: 25px;
+    	position: absolute;
+    	top: 3%;
+    	left: 55%;
+    }
+	.top-left {
+  	position: absolute;
+  	top: 9%;
+  	right: 6.5%;
+  	font-size: 200px;
+  	color: #0B0B3B;
+  	font-style: italic;
+  	font-weight: bold;
+  	}
+  	#uvodny_pokec {
+  		position: absolute;
+  		top: 220px;
+  		color: #E6E6E6 ;
+  		font-size: 25px;
+  		font-weight: bold; 
+  		top: 19%;
+  	}
+  	#maly_nadpis {
+  		font-size: 50px;
+  	}
+  	.gula_vlajky {
+  		position: absolute;
+  		top: 490px;
+  		right: 120px;
+  	}
+
+  	#letenky1 {
+  		position: absolute;
+  		top: 710px;
+  		right: 580px;
+  		font-size: 120px;
+  		font-style: italic;
+  		font-family: "Trebuchet MS", Helvetica, sans-serif;
+  		font-weight: bold;
+		}
+	#letenky_text {
+		position: absolute;
+		top: 1000px;
+		border: 4px;
+		padding: 5px;
+		border-radius: 20px;
+		border-style: solid;
+		border-color: #FFA500;
+		font-size: 25px;
+		left: 50%;
+		font-weight: bold;
+	}
+	.pelikan_jpg {
+		position: absolute;
+		top: 1100px;
+		left: 10%;
+	}
+	.rotate340 {
+    -webkit-transform: rotate(340deg);
+    -moz-transform: rotate(340deg);
+    -o-transform: rotate(340deg);
+    -ms-transform: rotate(340deg);
+    transform: rotate(340deg);
+	}
+	#azair {
+		position: absolute;
+		top: 1450px;
+		border: 4px;
+		padding: 5px;
+		border-radius: 20px;
+		border-style: solid;
+		border-color: #191970;
+		font-size: 25px;
+		right: 60%;
+		left: 10%;
+		font-weight: bold;	
+		}
+	.azair_jpg {
+		position: absolute;
+		top: 1450px;
+		right: 10%;
+	}
+	#pozicovna_nadpis{
+		position: absolute;
+		top: 1800px;
+		right: 530px;
+		font-size: 80px;
+  		font-style: italic;
+  		font-family: "Trebuchet MS", Helvetica, sans-serif;
+  		font-weight: bold;
+	}
+	#pozicovna1 {
+		position: absolute;
+		top: 2000px;
+		border: 4px;
+		padding: 5px;
+		border-radius: 20px;
+		border-style: solid;
+		border-color: #00FF00;
+		font-size: 25px;
+		right: 55%;
+		left: 15%;
+		font-weight: bold;	
+		}
+	#pozicovna2 {
+		position: absolute;
+		top: 2000px;
+		border: 4px;
+		padding: 5px;
+		border-radius: 20px;
+		border-style: solid;
+		border-color: #FFFF00;
+		font-size: 25px;
+		left: 50%;
+		right: 20%;
+		font-weight: bold;
+	}
+	#poz_o1 {
+		position: absolute;
+		top: 2400px;
+		left: 10%;
+	}
+	#poz_o2 {
+		position: absolute;
+		top: 2250px;
+		left: 40%;
+	}
+	#poz_o3 {
+		position: absolute;
+		top: 2300px;
+		left: 70%;
+	}
+	#spät1 {
+		position: absolute;
+		right: 10px;
+		top: 1800px;
+
+	}
+	#spät2 {
+		position: absolute;
+		right: 10px;
+		top: 2550px;
+	}
+	#spät3 {
+		position: absolute;
+		right: 10px;
+		top: 3380px;
+	}
+	#spät4 {
+		position: absolute;
+		right: 50%;
+		font-size: 40px;
+		top: 4000px;
+	}
+
+	#ubytovanie {
+		position: absolute;
+		top: 2600px;
+		right: 530px;
+		font-size: 80px;
+  		font-style: italic;
+  		font-family: "Trebuchet MS", Helvetica, sans-serif;
+  		font-weight: bold;
+	}
+	#ubytovanie_text {
+		position: absolute;
+		top: 2850px;
+		border: 4px;
+		padding: 5px;
+		border-radius: 20px;
+		border-style: solid;
+		border-color: #00FF00;
+		font-size: 25px;
+		right: 60%;
+		left: 5%;
+		font-weight: bold;	
+		}
+	#ubytovanie_text2 {
+		position: absolute;
+		top: 3100px;
+		border: 4px;
+		padding: 5px;
+		border-radius: 20px;
+		border-style: solid;
+		border-color: #00FF00;
+		font-size: 25px;
+		right: 5%;
+		left: 60%;
+		font-weight: bold;	
+		}
+	#ubytovanie_book {
+		position: absolute;
+		right: 100px;
+		top: 2870px;
+	}
+	#ubytovanie_book2 {
+		position: absolute;
+		left: 60px;
+		top: 3150px;
+	}
+	#citat {
+		position: absolute;
+		left: 200px;
+		top: 3500px;
+		font-family: Comic Sans MS;
+		font-style: italic;
+		font-size: 40px;
+	}
+	#gif {
+		position: absolute;
+		top: 4000px;
+	}
+	</style>
+    </head>
+    	<body>
+
+    			<div class="uvodny_obrazok">
+    			<!-- width= 1520px -->
+    				<div class="top-left">Vitajte</div>
+    				<div class="zoznam1"><a href="#letenky1"><u>Letenky</u></a></div>
+    				<div class="zoznam2"><a href="#pozicovna_nadpis"><u>Požičovňa áut</u></a></div>
+    				<div class="zoznam3"><a href="#ubytovanie"><u>Ubytovanie</u></a></div>
+
+    			</div>
+    				<p id="uvodny_pokec"><strong id="maly_nadpis">Milí cestovatelia</strong>,
+					rozhodol som sa<br> pripraviť pre Vás novú webovú stránku o spôsoboch<br> cestovania nie len v našej krajine, o aktivitách a rôznych<br> zaujímavých informáciach.Verím, že Vás moja stránka<br> poteší a zaujme. Postupne budem informácie na mojej<br> stránke dopĺňať, aktualizovať, pričom veľmi by som<br> uvítal aj Vaše konštruktívne námety,<br> podnetné príspevky a pripomienky.
+					</p>
+				<div>
+				<img src="https://previews.123rf.com/images/zloyel/zloyel1509/zloyel150900153/45742178-flags-of-the-countries-of-the-european-union-against-the-background-of-the-flag-of-the-eu.jpg" width="500" height="230" class="gula_vlajky">
+				</div>
+
+			
+					<p id="letenky1">Letenky</p></div> <br><br><br><br><br>
+
+					<p id="letenky_text"><strong>Najväčší</strong> predajca leteniek v Slovenskej republike, spoločnosť<br> pelicantravel.com s.r.o., vznikla v 	roku 2004 ako prvý online<br> predajca <em>leteniek</em>, <em>ubytovania</em>, <em>cestovného poistenia</em> a<br> <em>doplnkových cestovateľských produktov</em>. Pelikan.sk predstavuje<br> pre svojich klientov inteligentné riešenie dostupné 24hod denne,<br> 7 dní v týždni. To všetko za najlepšie ceny na trhu a vopred<br> garantovanej <strong>vysokej kvalite</strong>.Portál pelikan.sk vznikol, aby<br> uspokojil potreby nielen náročného obchodného cestujúceho, ale<br> aj rekreačného cestovateľa. Letenka, hotel či cestovné poistenie sa<br> tak stáva dostupné <strong>non-stop</strong> a klient si v pohodlí domova, či<br> kancelárie nájde na jednom mieste všetko čo potrebuje pre<br> svoju cestu.</p>
+			<div class="pelikan_jpg">
+				<a target="_blank" href="https://www.pelikan.sk/sk"><img src="https://cdn.pelikan.sk/app/web-desktop/assets/images/logos/pelikan/logo-text-sk.svg" width="400" class="rotate340"></a>
+			</div>
+
+					<p id="azair"><strong>AZair.eu</strong> nájde tie najlacnejšie letenky po Európe, Blízkom východe,<br> Ázii a v ich okolí. Skombinujte nízkonákladové letenky a z mnohých možných spojení vyberte vždy tú skutočne <strong>najlacnejšiu</strong>. Vďaka AZair<br> sa vám lacné letenky už neschovajú. S AZair nájdete všetky lowcost letenky na jednom mieste.</p>
+
+				<div class="azair_jpg">
+					<a target="_blank" href="http://www.azair.eu/?lang=sk"><img src="https://encrypted-tbn0.gstatic.com/	images?q=tbn%3AANd9GcTCW_5F1FWH71jj7d4jJBZadQ-3jJ4MOM1kubGOR0qXwBU0N31y&usqp=CAU" width="450">
+					</a>	
+				</div>
+
+
+				<p id="spät1"><a href=""><u>Späť</u></a></p>
+				<p id="spät2"><a href=""><u>Späť</u></a></p>
+				<p id="spät3"><a href=""><u>Späť</u></a></p>
+
+			<p id="pozicovna_nadpis">Požičovňa áut <br><br><br><br><br>
+			</p>
+
+			<p id="pozicovna1">Ako najväčší svetový online predajca prenájmu áut, ponúkame európsky prenájom v 6971 pobočkách. Od Španielska po Švédsko, od Belfastu po Bukurešť pokrývame celú Európu a spolupracujeme so všetkými vedúcimi autopožičovňami</p>
+
+			<p id="pozicovna2">Ponúkame bezkonkurenčné ceny na všetky triedy vozidiel, vrátane ekonomických áut, luxusných áut, SUV a automatických. Čokolvek potrebujete na európsku dovolenku, môžeme vám pomôcť.</p>
+
+				<div id="poz_o1">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwTs2r4GNXj2zJylRtuLKpZpEl3x09KZPbjhlYyaUANDRXWm5_&usqp=CAU" width="400">
+			</div>
+
+			<div id="poz_o2">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Alamo_Rent_a_Car_%28logo%29.svg/1200px-Alamo_Rent_a_Car_%28logo%29.svg.png" width="400">	
+			</div>
+
+			<div id="poz_o3">
+				<img src="https://www.rentalcars.com/images/suppliers/flat/europcar_logo_400.jpg" width="400">	
+			</div>
+
+			<p id="ubytovanie">Ubytovanie <br><br><br><br><br>
+			</p>
+
+			<p id="ubytovanie_text">Spoločnosť Booking.com bola založená v roku 1996 v Amsterdame. Odvtedy sa z malého startupu rozrástla na jednu z popredných svetových spoločností v oblasti digitálneho cestovného ruchu. Spoločnosť Booking.com je súčasťou skupiny Booking Holdings Inc. (NASDAQ: BKNG) a jej cieľom je uľahčiť všetkým spoznávanie sveta.</p>
+
+
+			<p id="ubytovanie_text2">Booking.com je k dispozícii v 43 jazykoch a celkovo ponúka viac než 28 miliónov zaregistrovaných ubytovaní vrátane 6,2 milióna ubytovaní v súkromí, apartmánov a ďalších jedinečných miest na pobyt. Nezáleží na tom, kam alebo kedy sa chcete vybrať, Booking.com vám uľahčí cestovanie a je tu pre vás 24 hodín denne so svojou zákazníckou podporou.
+			</p>
+
+			<div id="ubytovanie_book">
+				<a target="_blank" href="https://www.booking.com/index.sk.html?aid=356980&label=gog235jc-1DCBQoggJCCmNvbnRhY3QtdXNIIlgDaM0BiAEBmAEiuAEIyAEM2AED6AEB-AECiAIBqAIDuAKO7630BcACAQ&sid=e9d32dc00026484c486c667458ee52ff&click_from_logo=1"><img src="https://q-cf.bstatic.com/static/img/bcom_logo_blue_bg/f12f834e849b2a7f752a14b2598a6ddfeda1e713.svg" width="700"></a>
+			</div>
+
+			<div id="ubytovanie_book2">
+				<img src="https://static.timesofisrael.com/www/uploads/2015/07/Ryanair-plane-1024x640.jpg" width="550" height="300">	
+			</div>
+
+
+			<p id="citat"><em>“Keď ma niečo cestovanie naučilo, tak to, že najlepšie niečo<br> urobíte, ak sa do toho rovno pustíte. Nekecajte o tom, že by ste<br> chceli ísť na Borneo. Rezervujte si letenku, vybavte si vízum,<br> zbaľte batoh a stane sa to!”</em> <br>(kniha The Beach)</p>
+
+
+			<p id="spät4"><a href=""><u>Späť</u></a></p>
+
+			<!-- GIF -->
+			<div id="gif">
+				<img src="https://media1.giphy.com/media/FgJ6FbfJGwztK/200.webp?cid=ecf05e47e5bb8aaff87cabce7a8c1dacec5a43844175214e&rid=200.webp">
+			</div>
+
+    	</body>
+</html>
